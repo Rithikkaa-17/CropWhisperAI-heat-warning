@@ -1,0 +1,23 @@
+{
+ "chosen": "Logistic regression, 8 feat",
+ "features": [
+  "Tair_max60",
+  "Tair_mean60",
+  "Tair_dm30_3h",
+  "Tair",
+  "VPD_std60",
+  "RH_d30",
+  "Tsoil_mean60",
+  "Tair_std60"
+ ],
+ "logit_threshold": 4.173434213907999,
+ "max_abs_logit_diff": 4.013136578606691e-05,
+ "mean_abs_logit_diff": 8.222866755902925e-06,
+ "alarm_agreement": 1.0,
+ "host_text_bytes": 1095,
+ "host_data_bytes": 4,
+ "host_bss_bytes": 6944,
+ "ring_buffer_ram_bytes": 6912,
+ "cv_AUPRC": 0.8935720560775985,
+ "cv_AUROC": 0.9986996064821224
+}

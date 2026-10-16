@@ -1,0 +1,14 @@
+{
+ "model": "lr",
+ "features": [
+  "Tair_max60",
+  "Tair_mean60",
+  "Tair_dm30_3h",
+  "Tair",
+  "VPD_std60",
+  "RH_d30",
+  "Tsoil_mean60",
+  "Tair_std60"
+ ],
+ "logit_threshold": 4.173434213907999
+}

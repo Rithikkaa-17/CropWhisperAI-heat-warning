@@ -1,0 +1,1 @@
+# CropWhisperAI-heat-warning

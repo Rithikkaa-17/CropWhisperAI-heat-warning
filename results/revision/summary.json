@@ -1,0 +1,276 @@
+{
+ "qc_mode": "sensor",
+ "n_episode_days": 42,
+ "episodes_per_month": {
+  "6": 29,
+  "7": 9,
+  "8": 4
+ },
+ "n_scored": 26047,
+ "qc_flag_counts": {
+  "OK": 30792,
+  "DHT22_TIMEOUT": 8,
+  "WIFI_RETRY": 6,
+  "RECALIBRATION_CHECK": 6,
+  "MAINTENANCE": 4
+ },
+ "lead_LightGBM": {
+  "n_warned": 40,
+  "lead_quartiles": [
+   15.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "frac_lead_ge10": 1.0,
+  "frac_lead_ge15": 1.0,
+  "frac_lead_ge20": 0.95,
+  "frac_lead_30": 0.8,
+  "frac_continuous": 0.975,
+  "median_toggles": 0.0,
+  "max_toggles": 2,
+  "missed": [
+   "2026-07-12 15:25:00",
+   "2026-08-06 16:00:00"
+  ],
+  "missed_trigger": [
+   "soil",
+   "soil"
+  ]
+ },
+ "lead_Logistic regression": {
+  "n_warned": 41,
+  "lead_quartiles": [
+   5.0,
+   30.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "frac_lead_ge10": 0.975609756097561,
+  "frac_lead_ge15": 0.975609756097561,
+  "frac_lead_ge20": 0.9512195121951219,
+  "frac_lead_30": 0.8536585365853658,
+  "frac_continuous": 0.975609756097561,
+  "median_toggles": 0.0,
+  "max_toggles": 2,
+  "missed": [
+   "2026-08-06 16:00:00"
+  ],
+  "missed_trigger": [
+   "soil"
+  ]
+ },
+ "lead_On-device LR": {
+  "n_warned": 41,
+  "lead_quartiles": [
+   15.0,
+   25.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "frac_lead_ge10": 1.0,
+  "frac_lead_ge15": 1.0,
+  "frac_lead_ge20": 0.926829268292683,
+  "frac_lead_30": 0.6341463414634146,
+  "frac_continuous": 0.9512195121951219,
+  "median_toggles": 0.0,
+  "max_toggles": 2,
+  "missed": [
+   "2026-08-06 16:00:00"
+  ],
+  "missed_trigger": [
+   "soil"
+  ]
+ },
+ "lead_Trend rule": {
+  "n_warned": 41,
+  "lead_quartiles": [
+   15.0,
+   25.0,
+   30.0,
+   30.0,
+   30.0
+  ],
+  "frac_lead_ge10": 1.0,
+  "frac_lead_ge15": 1.0,
+  "frac_lead_ge20": 0.9024390243902439,
+  "frac_lead_30": 0.5365853658536586,
+  "frac_continuous": 0.5609756097560976,
+  "median_toggles": 0.0,
+  "max_toggles": 4,
+  "missed": [
+   "2026-08-06 16:00:00"
+  ],
+  "missed_trigger": [
+   "soil"
+  ]
+ },
+ "runs_LightGBM": {
+  "n_true": 41,
+  "n_false": 8,
+  "false_dates": [
+   "2026-06-11 09:55:00",
+   "2026-06-26 11:40:00",
+   "2026-06-28 12:00:00",
+   "2026-07-05 12:30:00",
+   "2026-07-07 13:40:00",
+   "2026-07-27 13:20:00",
+   "2026-08-06 15:00:00",
+   "2026-08-08 14:10:00"
+  ],
+  "false_len_median": 10.0,
+  "true_len_median": 35.0
+ },
+ "runs_Logistic regression": {
+  "n_true": 42,
+  "n_false": 11,
+  "false_dates": [
+   "2026-06-09 09:20:00",
+   "2026-06-10 09:40:00",
+   "2026-06-15 11:00:00",
+   "2026-07-03 16:45:00",
+   "2026-07-15 14:55:00",
+   "2026-07-19 15:05:00",
+   "2026-07-19 15:20:00",
+   "2026-08-06 14:45:00",
+   "2026-08-08 14:05:00",
+   "2026-08-09 14:10:00",
+   "2026-08-23 14:50:00"
+  ],
+  "false_len_median": 15.0,
+  "true_len_median": 40.0
+ },
+ "runs_On-device LR": {
+  "n_true": 43,
+  "n_false": 11,
+  "false_dates": [
+   "2026-07-03 16:30:00",
+   "2026-07-05 12:35:00",
+   "2026-07-05 12:45:00",
+   "2026-07-13 13:55:00",
+   "2026-07-13 14:25:00",
+   "2026-07-15 14:55:00",
+   "2026-07-15 15:05:00",
+   "2026-08-06 14:45:00",
+   "2026-08-06 14:55:00",
+   "2026-08-09 14:10:00",
+   "2026-08-23 14:55:00"
+  ],
+  "false_len_median": 15.0,
+  "true_len_median": 30.0
+ },
+ "runs_Trend rule": {
+  "n_true": 61,
+  "n_false": 30,
+  "false_dates": [
+   "2026-06-03 10:00:00",
+   "2026-06-10 09:50:00",
+   "2026-06-11 09:50:00",
+   "2026-06-15 11:00:00",
+   "2026-06-17 11:25:00",
+   "2026-06-18 11:40:00",
+   "2026-06-20 11:20:00",
+   "2026-06-22 10:50:00",
+   "2026-06-23 10:40:00",
+   "2026-06-25 11:45:00",
+   "2026-06-26 11:45:00",
+   "2026-06-28 12:00:00",
+   "2026-07-04 11:30:00",
+   "2026-07-05 12:45:00",
+   "2026-07-07 13:40:00",
+   "2026-07-12 14:40:00",
+   "2026-07-13 14:20:00",
+   "2026-07-27 13:20:00",
+   "2026-07-31 14:45:00",
+   "2026-08-06 14:30:00",
+   "2026-08-06 15:00:00",
+   "2026-08-06 15:15:00",
+   "2026-08-06 15:25:00",
+   "2026-08-08 14:35:00",
+   "2026-08-09 14:15:00",
+   "2026-08-12 13:10:00",
+   "2026-08-12 13:30:00",
+   "2026-08-12 13:45:00",
+   "2026-08-23 15:40:00",
+   "2026-08-23 16:00:00"
+  ],
+  "false_len_median": 5.0,
+  "true_len_median": 15.0
+ },
+ "acf_Tair_anomaly": {
+  "1h": 0.9795483207570431,
+  "6h": 0.8227801359095729,
+  "12h": 0.6823187969347486,
+  "24h": 0.7450372819524612,
+  "48h": 0.6978842287684344
+ },
+ "lr8_feature_selection_frequency": {
+  "Tair_max60": 10,
+  "Tair_mean60": 10,
+  "Tair_dm30_3h": 10,
+  "Tair_std60": 3,
+  "Tsoil_mean60": 10,
+  "VPD_max60": 1,
+  "Tair": 10,
+  "VPD_std60": 10,
+  "Lux_d60": 6,
+  "VPD_d60": 3,
+  "dTas_std60": 4,
+  "Tsoil_max60": 1,
+  "Lux_int_2h": 1,
+  "RH_d30": 1
+ },
+ "channel_corr": {
+  "DHT22_Air_Temperature_C": {
+   "DHT22_Air_Temperature_C": 1.0,
+   "DHT22_Humidity_pct": -0.89,
+   "DS18B20_Soil_Temperature_C": 0.84,
+   "Capacitive_Soil_Moisture_pct": -0.36,
+   "BH1750_Light_lux": 0.67,
+   "Water_Level_pct": -0.0
+  },
+  "DHT22_Humidity_pct": {
+   "DHT22_Air_Temperature_C": -0.89,
+   "DHT22_Humidity_pct": 1.0,
+   "DS18B20_Soil_Temperature_C": -0.64,
+   "Capacitive_Soil_Moisture_pct": 0.24,
+   "BH1750_Light_lux": -0.72,
+   "Water_Level_pct": -0.0
+  },
+  "DS18B20_Soil_Temperature_C": {
+   "DHT22_Air_Temperature_C": 0.84,
+   "DHT22_Humidity_pct": -0.64,
+   "DS18B20_Soil_Temperature_C": 1.0,
+   "Capacitive_Soil_Moisture_pct": -0.43,
+   "BH1750_Light_lux": 0.24,
+   "Water_Level_pct": -0.01
+  },
+  "Capacitive_Soil_Moisture_pct": {
+   "DHT22_Air_Temperature_C": -0.36,
+   "DHT22_Humidity_pct": 0.24,
+   "DS18B20_Soil_Temperature_C": -0.43,
+   "Capacitive_Soil_Moisture_pct": 1.0,
+   "BH1750_Light_lux": -0.14,
+   "Water_Level_pct": 0.23
+  },
+  "BH1750_Light_lux": {
+   "DHT22_Air_Temperature_C": 0.67,
+   "DHT22_Humidity_pct": -0.72,
+   "DS18B20_Soil_Temperature_C": 0.24,
+   "Capacitive_Soil_Moisture_pct": -0.14,
+   "BH1750_Light_lux": 1.0,
+   "Water_Level_pct": -0.02
+  },
+  "Water_Level_pct": {
+   "DHT22_Air_Temperature_C": -0.0,
+   "DHT22_Humidity_pct": -0.0,
+   "DS18B20_Soil_Temperature_C": -0.43,
+   "Capacitive_Soil_Moisture_pct": 0.23,
+   "BH1750_Light_lux": -0.02,
+   "Water_Level_pct": 1.0
+  }
+ }
+}

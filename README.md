@@ -1,4 +1,4 @@
-# CropWhisperAI heat-stress early warning: code, results and ESP32 export
+# CropWhisperAI heat-stress early warning
 
 Put `data.csv` (exported from the cleaned sensor spreadsheet) in this folder, then run the scripts in order:
 

@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this data, code or firmware, please cite the paper below."
+title: "CropWhisperAI heat-stress early warning: data, analysis code and ESP32 firmware"
+type: software
+repository-code: "https://github.com/Rithikkaa-17/CropWhisperAI-heat-warning"
+authors:
+  - family-names: "S. J."
+    given-names: "Rithikkaa"
+  - family-names: "Mohanavelu"
+    given-names: "Parinitha"
+  - family-names: "S. G."
+    given-names: "Rahul"
+    email: "sg_rahul@ch.amrita.edu"
+  - family-names: "T. M."
+    given-names: "Amirthalakshmi"
+keywords:
+  - tomato
+  - heat stress
+  - early warning
+  - ESP32
+  - TinyML
+preferred-citation:
+  type: article
+  title: "Edge Early Warning of Threshold-Defined Heat-Stress Episodes in Tomato: A Proof-of-Concept Low-Cost ESP32 Multi-Sensor Node with On-Device Machine Learning"
+  journal: "AgriEngineering"
+  year: 2026
+  status: in-press
+  authors:
+    - family-names: "S. J."
+      given-names: "Rithikkaa"
+    - family-names: "Mohanavelu"
+      given-names: "Parinitha"
+    - family-names: "S. G."
+      given-names: "Rahul"
+    - family-names: "T. M."
+      given-names: "Amirthalakshmi"

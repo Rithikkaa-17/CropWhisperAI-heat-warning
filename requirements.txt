@@ -1,0 +1,8 @@
+# Versions used for the published results: Python 3.13, scikit-learn 1.8, LightGBM 4.7
+numpy>=2.0
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.8,<1.9
+lightgbm>=4.7,<4.8
+shap>=0.46
+matplotlib>=3.9

@@ -1,0 +1,69 @@
+{
+ "fallback_used": 30,
+ "combinations": 30,
+ "bh1750": [
+  {
+   "horizon_min": 15,
+   "AUPRC_with_BH1750": 0.6234,
+   "AUPRC_without": 0.6208,
+   "simple_difference": 0.0027,
+   "paired_bootstrap_difference": 0.0082,
+   "paired_CI95": [
+    -0.0409,
+    0.0673
+   ]
+  },
+  {
+   "horizon_min": 30,
+   "AUPRC_with_BH1750": 0.8936,
+   "AUPRC_without": 0.8023,
+   "simple_difference": 0.0913,
+   "paired_bootstrap_difference": 0.0883,
+   "paired_CI95": [
+    0.0282,
+    0.1395
+   ]
+  },
+  {
+   "horizon_min": 60,
+   "AUPRC_with_BH1750": 0.9306,
+   "AUPRC_without": 0.9232,
+   "simple_difference": 0.0074,
+   "paired_bootstrap_difference": 0.0065,
+   "paired_CI95": [
+    -0.0157,
+    0.0291
+   ]
+  }
+ ],
+ "exported_features": {
+  "v1_0": [
+   "Tair",
+   "Tair_mean60",
+   "Tair_max60",
+   "Tair_dm30_3h",
+   "Tsoil_mean60",
+   "Tsoil_max60",
+   "VPD_std60",
+   "Lux_d60"
+  ],
+  "v1_1": [
+   "Tair_max60",
+   "Tair_mean60",
+   "Tair_dm30_3h",
+   "Tair",
+   "VPD_std60",
+   "RH_d30",
+   "Tsoil_mean60",
+   "Tair_std60"
+  ],
+  "removed": [
+   "Tsoil_max60",
+   "Lux_d60"
+  ],
+  "added": [
+   "RH_d30",
+   "Tair_std60"
+  ]
+ }
+}

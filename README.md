@@ -140,14 +140,3 @@ The firmware still reads and uploads the BH1750, but the v1.1 model does not use
 Large per-record files (`results/oof_H*.csv`, `results/shap_X.csv`, `results/shap_values.npy`) and rendered figures
 are not stored here; the scripts regenerate them.
 
-## Citation
-
-Please cite the paper (see `CITATION.cff`). Related work by the group:
-Rahul S. G., Rithikkaa S. J., Amirthalakshmi T. M., Gayathri M. Sustainable agriculture through IoT-driven smart
-irrigation with explainable AI. *Front. Sustain. Food Syst.* **2026**, 10, 1847041.
-https://doi.org/10.3389/fsufs.2026.1847041
-
-## Contact
-
-Rahul S. G. (corresponding author), Department of Electronics and Communication Engineering, Amrita School of
-Engineering, Amrita Vishwa Vidyapeetham, Chennai, India — sg_rahul@ch.amrita.edu
